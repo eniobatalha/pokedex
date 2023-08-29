@@ -87,7 +87,7 @@ const typeColor = {
       document.querySelector(".types").appendChild(span);
     });
   };
-  
+
   let styleCard = (color) => {
     card.style.background = `radial-gradient(circle at 50% 0%, ${color} 36%, #ffffff 36%)`;
     card.style.boxShadow = "0px 6px 12px rgba(0, 0, 0, 0.7)";
